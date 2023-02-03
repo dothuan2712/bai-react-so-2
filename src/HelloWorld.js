@@ -4,9 +4,9 @@ export default function HelloWorld() {
     const user = {
         firstName: 'Harper',
         lastName: 'Perez'
-    }
+    };
     const formatName = (user) => {
-        return user.firstName + '' + user.lastName;
+        return user.firstName + ' ' + user.lastName;
     };
 
     return (
